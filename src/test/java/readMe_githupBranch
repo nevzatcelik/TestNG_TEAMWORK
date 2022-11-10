@@ -1,0 +1,30 @@
+1-Ilk adimda team leader in github indan,proje linkini kopyalarak kendi Intellj imizde
+   new project E TIKLAYIP, project from version control ile projemizi olusturalim
+
+2-Projemizin icerisinde terminali kullanarak kendi branch imizi olusturmak icin terminale "git branch" yazarak
+once kac tane branch oldugunu gozumuzle gorelim. Lutfen asagida verilen adimlari benim eklemis oldugum cift tirnak
+isaretlerini gormezden gelerek kodlari terminale yazalim. Ben sadece orada yazilmasi gerkeni belirtmek icin
+cift tirnak kullaniyorum.
+
+3- ardindan kendi branch imizi olusturmak icin "git branch Nevzat" formatinda terminale komutuzu verelim.
+
+4- Bu komutu yaptiktan sonra branch imizin eklenip eklenmedigini kontrol etmek icin tekrar "git branch" yazarak
+ismini verdigimiz branch in basariyla eklendigini kontrol edelim.
+
+5- Artik kendi olusturdugumuz branch e gecis yapmak icin "git checkout ISIM" formatini kullanarak kendi branch imize
+main branch inden gecis saglayalim
+
+6- Kendi branch imize basari ile gecis yapildigini test etmek icin tekrar "git branch" komutunu yazarak ismini verdigimiz
+branch de oldugumuzu test edelim.
+
+
+7-Burada projemiz ile alakali bize verilen gorevleri yerine getirmek icin oncelike kendi package imizi olusturacagiz.
+ardindan classimizi olusturtan sonra karsima githup o "ADD FILE TO GIT" seklinde kucuk bir pencere acilacak.
+
+ -Burada dont ask again kutusuna isaretleme yaparak sag taraftan cancel butonuna basacagiz
+
+-BU ADIM COK ONEMLI EGER KI BURADA BIR HATA YAPILIRSA TUM PROJEDE PROBLEM OLACAKTIR SEBEBI SIZIN EKLEDIGINIZ DOSYALARI
+SIZIN MANUEL PUSH YAPMADAN INTELLJ OTOMATIK KENDISI GONDERECEKTIR BU YUZDEN BU ADIMI COK DIKKATLE YAPALIM
+
+8-
+
