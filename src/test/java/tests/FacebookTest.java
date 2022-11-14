@@ -16,8 +16,8 @@ public class FacebookTest {
         Faker faker=new Faker();
         FacebookPage facebook=new FacebookPage();
         facebook.cerezler.click();
-        facebook.facebookEmail.sendKeys(faker.internet().password());
-        facebook.facebookPassword.sendKeys(faker.internet().emailAddress()+Keys.ENTER);
+        facebook.facebookEmail.sendKeys(faker.internet().avatar());
+        facebook.facebookPassword.sendKeys(faker.internet().domainName()+Keys.ENTER);
         Assert.assertTrue(facebook.facebooksifreDogrulama.isDisplayed());
 
     }
