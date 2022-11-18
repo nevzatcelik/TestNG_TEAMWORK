@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import pages.QualityDemyPage_Instructor;
 import utilities.ConfigReader;
@@ -22,5 +24,12 @@ public class US_34 {
         qualityDemyPage_instructor.instructorButton.click();
         qualityDemyPage_instructor.courseManagerButton.click();
         qualityDemyPage_instructor.addNewCourseButton.click();
+        qualityDemyPage_instructor.seoSectionButton.click();
+        Actions actions=new Actions(Driver.getDriver());
+        actions.click(qualityDemyPage_instructor.metaKeywordTextbox).
+                sendKeys(ConfigReader.getProperty("seoMetaKeywordsTextbox")+Keys.ENTER).
+                sendKeys(ConfigReader.getProperty("seoMetaKeywordsTextbox2")+Keys.ENTER).perform();
+
+
     }
 }
