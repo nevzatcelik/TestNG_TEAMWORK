@@ -2,7 +2,8 @@
 <suite name="testcalistirma">
     <test name="test1">
        <classes>
-           <class name="tests.AutomationExerciseTest05andTest07"></class>
+           <class name="tests.US_30"></class>
+           <class name="tests.US_31"></class>
        </classes>
     </test>
 </suite>
