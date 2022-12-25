@@ -1,0 +1,8 @@
+<suite name="suite">
+    <test name="test suite">
+        <classes>
+            <class name="tests.US_30" />
+            <class name="tests.US_31"/>
+        </classes>
+    </test>
+</suite>

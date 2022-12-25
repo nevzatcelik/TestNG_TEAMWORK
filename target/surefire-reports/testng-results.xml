@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-25T15:11:31 CET" name="suite" finished-at="2022-12-25T15:11:54 CET" duration-ms="22960">
+    <groups>
+    </groups>
+    <test started-at="2022-12-25T15:11:31 CET" name="test suite" finished-at="2022-12-25T15:11:54 CET" duration-ms="22960">
+      <class name="tests.US_30">
+        <test-method signature="requirementsAddTest()[pri:0, instance:tests.US_30@1613674b]" started-at="2022-12-25T15:11:31 CET" name="requirementsAddTest" finished-at="2022-12-25T15:11:47 CET" duration-ms="15393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requirementsAddTest -->
+      </class> <!-- tests.US_30 -->
+      <class name="tests.US_31">
+        <test-method signature="outComesAddTest()[pri:0, instance:tests.US_31@50ad3bc1]" started-at="2022-12-25T15:11:47 CET" name="outComesAddTest" finished-at="2022-12-25T15:11:54 CET" duration-ms="7484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outComesAddTest -->
+      </class> <!-- tests.US_31 -->
+    </test> <!-- test suite -->
+  </suite> <!-- suite -->
+</testng-results>
