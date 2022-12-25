@@ -1,11 +1,14 @@
 package tests;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
+import pages.QualityDemyPage_Instructor;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class AmazonTest {
 
@@ -22,6 +25,20 @@ public class AmazonTest {
         Assert.assertTrue(aramaSonucu.contains(ConfigReader.getProperty("aranankelime")));
 
         Driver.closeDriver();
+
+        Actions actions=new Actions(Driver.getDriver());
+
+        actions.sendKeys(Keys.PAGE_DOWN);
+
+    }
+
+    @Test
+    public void test02(){
+        QualityDemyPage_Instructor qualityDemyPage_instructor=new QualityDemyPage_Instructor();
+        Driver.getDriver().get("https://www.qualitydemy.com");
+        qualityDemyPage_instructor.acceptCookies.click();
+        ReusableMethods.bekle(4);
+
 
     }
 }
