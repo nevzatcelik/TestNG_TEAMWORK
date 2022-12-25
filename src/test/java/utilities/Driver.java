@@ -3,6 +3,7 @@ package utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -16,8 +17,13 @@ public class Driver {
         if(driver==null) {
             switch (ConfigReader.getProperty("browser")) {
                 case "chrome":
+                    ChromeOptions chromeOptions=new ChromeOptions();
                     WebDriverManager.chromedriver().setup();
+                    chromeOptions.addArguments("--disable-dev-shm-usage");
+                    chromeOptions.addArguments("--no-sandbox");
+                    chromeOptions.addArguments("--headless");
                     driver = new ChromeDriver();
+
                     break;
                 case "safari":
                     WebDriverManager.chromedriver().setup();

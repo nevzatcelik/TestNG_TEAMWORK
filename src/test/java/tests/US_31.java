@@ -29,6 +29,7 @@ public class US_31 {
         Assert.assertTrue(qualityDemyPage_instructor.outComesRedMinusButton.isDisplayed());
         qualityDemyPage_instructor.testUser.click();
         qualityDemyPage_instructor.logoutButton.click();
+        Driver.closeDriver();
 
     }
 }
