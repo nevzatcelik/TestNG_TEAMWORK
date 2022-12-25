@@ -6,11 +6,14 @@ import pages.QualityDemyPage_Instructor;
 import utilities.ConfigReader;
 import utilities.Driver;
 
+import java.nio.file.Files;
+
 public class US_30 {
 
 
     @Test
     public void requirementsAddTest(){
+
         QualityDemyPage_Instructor qualityDemyPage_instructor=new QualityDemyPage_Instructor();
         Driver.getDriver().get(ConfigReader.getProperty("myUrl"));
         qualityDemyPage_instructor.acceptCookies.click();
